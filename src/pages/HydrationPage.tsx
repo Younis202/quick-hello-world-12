@@ -1,76 +1,895 @@
-import { Link } from 'react-router-dom';
-
 export default function HydrationPage() {
   return (
-    <div className="hydration-page">
-      <div className="page-header">
-        <h1>Hydration Guide</h1>
-        <p>Everything you need to know about staying properly hydrated</p>
+    <div className="page-wrapper">
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGH7D3R" height="0" width="0"
+        style="display:none;visibility:hidden;"></iframe></noscript>
+      <div className="zp-open-popup-button">
+        <div className="x_R61yl zp-11-2-5-zp-fixed"><img alt="Apollo.io"
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDQwIDQwIj48cGF0aCBmaWxsPSIjZWJmMjEyIiBkPSJtMjEuNDY2IDUuMDcxLjAwNCAxMC45MTVjLjAwMSAxLjcyNS0xLjgzNCAyLjgzLTMuMzU4IDIuMDI0TDcuMTcgMTIuMjIzYTE1LjEgMTUuMSAwIDAgMSAzLjEtMy42NGw4LjU4MiA3LjkzMmMuNDU1LjQyIDEuMTcyLS4wMzYuOTg1LS42MjZMMTYuNTA5IDUuNDFhMTUgMTUgMCAwIDEgNC45NTYtLjMzOE0xOC40OTYgMzQuOTI1bC0uMDA1LTEwLjg2YzAtMS43MjQgMS44MzQtMi44MyAzLjM1OS0yLjAyM2wxMC45NDYgNS43OWExNSAxNSAwIDAgMS0zLjExNiAzLjYyNmwtOC41Ny03LjkyMWMtLjQ1NS0uNDItMS4xNzIuMDM1LS45ODUuNjI1bDMuMzE2IDEwLjQ0MWExNSAxNSAwIDAgMS00Ljk0NS4zMjJNMjMuNDkyIDE4Ljg5OCAzMS40NCAxMC4zYTE1IDE1IDAgMCAwLTMuNjQtMy4xMTNsLTUuODA0IDEwLjk3MmMtLjgwNiAxLjUyNC4zIDMuMzU5IDIuMDI0IDMuMzU4bDEwLjkwNS0uMDA1YTE1LjIgMTUuMiAwIDAgMC0uMzI0LTQuOTU4bC0xMC40ODQgMy4zM2MtLjU5LjE4Ny0xLjA0NS0uNTMtLjYyNS0uOTg1TTUuMDcgMTguNTRsMTAuODcyLS4wMDRjMS43MjUgMCAyLjgzIDEuODM0IDIuMDI0IDMuMzU4TDEyLjE5MiAzMi44MWExNSAxNSAwIDAgMS0zLjYyNy0zLjEwM2w3LjkwNi04LjU1M2MuNDItLjQ1NS0uMDM2LTEuMTcyLS42MjYtLjk4NUw1LjQwOCAyMy40ODRhMTUgMTUgMCAwIDEtLjMzNy00Ljk0MyIvPjwvc3ZnPg=="
+          className="x_kJtSQ" /></div>
       </div>
+      <div id="__next" data-reactroot="">
+        <section className="css-130va89 e11y9y9c0">
+          <div className="header-wrap">
+            <div className="head-skinny-wrap">
+              <div className="css-1uqcsod eurkgsn0">
+                <div className="skinnyBar">
+                  <div className="skinnyBar_content">
+                    <div aria-hidden="true" className="skinnyBar_text hidden">Up to $40 off SITEWIDE! Don’t miss out on
+                      end-of-year savings!</div>
+                    <div className="skinnyBar_text">Up to $40 off SITEWIDE! Don’t miss out on end-of-year savings!</div>
+                  </div>
+                  <div className="skinnyBar_cta"><button>Learn more</button></div>
+                </div>
+              </div>
+              <div className="css-1dmf71o e5vbear0">
+                <div className="slideOut_dialog" role="dialog">
+                  <div className="slideOut_dialogInner"><button type="button" className="slideOut_dialog_closeBtn"
+                    aria-label="close promo info modal" title="Close dialog"><span color="text.default"
+                      className="css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0" focusable="false"
+                        viewBox="0 0 48 48" color="text.default" aria-hidden="true" fill="undefined">
+                        <path fill="#F3756D"
+                          d="m24.594 30.193 5.462-5.462H16.102a1.05 1.05 0 0 1-1.042-1.04c0-.57.473-1.043 1.042-1.043h13.954l-5.462-5.493a1.01 1.01 0 0 1 0-1.452 1.01 1.01 0 0 1 1.452 0l7.23 7.23c.19.189.316.441.316.726 0 .284-.127.536-.316.726l-7.23 7.23a1.01 1.01 0 0 1-1.452 0 1.011 1.011 0 0 1 0-1.454v.032Z">
+                        </path>
+                      </svg></span></button>
+                    <div className="css-16unm68 e1r8pers0">
+                      <div className="content_head"><img className="content_head_image"
+                        src="https://res.cloudinary.com/larq/images/f_auto,q_auto/v1766144740/BoxingDay2025_SlideOut/BoxingDay2025_SlideOut.jpg?_i=AA"
+                        alt="LARQ promotion" decoding="async" loading="lazy" /></div>
+                      <div className="content_body">
+                        <div className="content_bodyMain">
+                          <div className="content_bodyMain_intro"><strong>Last chance of the year to shop brilliant hydration on
+                            sale! We won’t have an offer this good for a while. Shop now while you still can!</strong>
+                          </div>
+                          <div className="css-1tuuqfx ejq9g4l0">
+                            <div className="tierCards_item">
+                              <div className="css-1tray8u e16frvol0">
+                                <div className="tierCard_title">$40 off</div>
+                                <div className="tierCard_note">orders $200 or more</div>
+                              </div>
+                            </div>
+                            <div className="tierCards_item">
+                              <div className="css-1tray8u e16frvol0">
+                                <div className="tierCard_title">$20 off</div>
+                                <div className="tierCard_note">orders $130 or more</div>
+                              </div>
+                            </div>
+                            <div className="tierCards_item">
+                              <div className="css-1tray8u e16frvol0">
+                                <div className="tierCard_title">$10 off</div>
+                                <div className="tierCard_note">orders $60 or more</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="content_bodyActions"><a href="/shop"
+                          className="content_bodyActions_cta css-1xnmvko e10c7x3h0" tabIndex="0"><span
+                            className="btn_element"><span className="btn_label">Shop now</span></span></a></div>
+                        <div className="content_bodyDisclaimer">Offer valid for a limited time only. Discounts apply to
+                          merchandise subtotal before taxes and shipping. Cannot be combined with other promotions, coupon
+                          codes, or retroactively applied to past purchases. Select products are eligible to stack with the
+                          promotional offer. Hydration Club members will earn points on all purchases; however, points may
+                          not be redeemed toward purchases made during promotional periods. Other exclusions may apply. Shop
+                          the End of the Year offer now through 11:59PM PT, January 6, 2026.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="slideOut_overlay"></div>
+              </div>
+              <section className="css-yc95pm e1qv8zp50">
+                <div className="navigation-head-skinny-wrap">
+                  <div className="navigation-head"><button type="button" className="navigation-hamburger"
+                    aria-label="Open main navigation"><svg viewBox="0 0 50 50" fill="none"
+                      xmlns="http://www.w3.org/2000/svg" aria-label="image with 3 lines representing menu" role="img">
+                      <path
+                        d="M16.25 18.625C16.25 18.3125 16.5234 18 16.875 18H33.125C33.4375 18 33.75 18.3125 33.75 18.625C33.75 18.9766 33.4375 19.25 33.125 19.25H16.875C16.5234 19.25 16.25 18.9766 16.25 18.625ZM16.25 24.875C16.25 24.5625 16.5234 24.25 16.875 24.25H33.125C33.4375 24.25 33.75 24.5625 33.75 24.875C33.75 25.2266 33.4375 25.5 33.125 25.5H16.875C16.5234 25.5 16.25 25.2266 16.25 24.875ZM33.125 31.75H16.875C16.5234 31.75 16.25 31.4766 16.25 31.125C16.25 30.8125 16.5234 30.5 16.875 30.5H33.125C33.4375 30.5 33.75 30.8125 33.75 31.125C33.75 31.4766 33.4375 31.75 33.125 31.75Z"
+                        fill="#153A5B"></path>
+                    </svg></button>
+                    <div className="main-navigation-wrap">
+                      <nav className="main-navigation-links main-navigation-links-left" role="navigation"
+                        aria-label="main navigation">
+                        <ul>
+                          <li><button className="" aria-label="Bottles" tabIndex="0" role="button">Bottles</button></li>
+                          <li><button className="" aria-label="Pitchers" tabIndex="0" role="button">Pitchers</button></li>
+                          <li><a className="" href="/shop/hydration-sets">Sets</a></li>
+                          <li><a className="" href="/shop">Shop all</a></li>
+                          <li><a className="isGiftGuide" href="/gift-guide">Gift guide</a></li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <div className="navigation-logo"><a aria-label="LARQ Homepage" href="/"><svg width="85" height="20"
+                      viewBox="0 0 85 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Larq logo"
+                      role="img">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M74.7998 16.9523C71.0144 16.9523 67.8164 13.6743 67.8164 9.79426C67.8164 5.91404 71.0144 2.63602 74.7998 2.63602C78.5852 2.63602 81.7831 5.91404 81.7831 9.79426C81.7831 11.2661 81.3218 12.6507 80.5439 13.8033L78.4165 11.642L76.6477 13.4391L78.7948 15.6206C77.654 16.4549 76.272 16.9523 74.7998 16.9523ZM84.7023 18.0283L82.5766 15.8685C83.9015 14.2143 84.6865 12.1116 84.6865 9.79426C84.6865 4.33536 80.3436 0.0597534 74.7998 0.0597534C69.2556 0.0597534 64.9127 4.33536 64.9127 9.79426C64.9127 15.2529 69.2556 19.5288 74.7998 19.5288C77.0548 19.5288 79.1111 18.8211 80.7572 17.6143L82.9335 19.8255L84.7023 18.0283Z"
+                        fill="#153A5B"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.669189 19.1244V0.462435H3.3895V16.5479H14.4834V19.1244H0.669189Z" fill="#153A5B"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M46.914 10.3998H52.6442C55.633 10.3998 56.6933 8.41762 56.6933 6.7196C56.6933 5.0218 55.633 3.0396 52.6442 3.0396H46.914V10.3998ZM55.8915 19.1244L51.8878 12.977H46.914V19.1244H44.1937V0.462457H52.9192C56.8037 0.462457 59.4137 2.97674 59.4137 6.7196C59.4137 9.23828 57.7643 11.3851 55.2114 12.188L54.6711 12.3583L59.339 19.1244H55.8915Z"
+                        fill="#153A5B"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M23.5083 19.1244L29.222 4.86485L34.8847 19.1244H37.9185L30.7063 1.82419C30.3621 0.998699 29.5655 0.462435 28.6831 0.462435H22.8782V0.945072C22.8782 1.99892 23.719 2.8532 24.7565 2.8532H27.4969L20.4986 19.1244H23.5083Z"
+                        fill="#153A5B"></path>
+                    </svg></a></div>
+                    <div className="navigation-mobile-account-cart"><a className="navigation-loyalty"
+                      href="/hydration-club-points-and-rewards"><span color="text.default"
+                        className="css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0" focusable="false"
+                          viewBox="0 0 48 48" color="text.default" aria-hidden="true" fill="undefined">
+                          <path fill="#153A5B"
+                            d="M30 26a1 1 0 0 1 1 1 7 7 0 0 1-7 7 1 1 0 0 1 0-2 5 5 0 0 0 5-5 1 1 0 0 1 1-1Z"></path>
+                          <path fill="#153A5B" fill-rule="evenodd"
+                            d="M24 7c.352 0 .677.184.858.485.724 1.207 1.637 2.486 2.637 3.854.992 1.355 2.07 2.799 3.082 4.286 2.017 2.963 3.876 6.242 4.412 9.722.537 3.49-.262 6.894-2.191 9.444C30.856 37.356 27.81 39 24 39c-3.81 0-6.857-1.644-8.798-4.21-1.93-2.549-2.727-5.953-2.19-9.443.535-3.48 2.393-6.76 4.41-9.722 1.013-1.487 2.09-2.93 3.083-4.286 1-1.368 1.913-2.647 2.637-3.854l.075-.107C23.405 7.14 23.694 7 24 7Zm0 2.86a78.172 78.172 0 0 1-1.88 2.66c-1.008 1.378-2.056 2.78-3.043 4.23-1.983 2.912-3.624 5.883-4.088 8.902-.463 3.01.238 5.856 1.809 7.932C18.356 35.644 20.81 37 24 37c3.19 0 5.643-1.357 7.202-3.416 1.57-2.076 2.272-4.922 1.81-7.932-.465-3.019-2.107-5.99-4.09-8.902-.987-1.45-2.034-2.851-3.042-4.23A78.082 78.082 0 0 1 24 9.86Z"
+                            clip-rule="evenodd"></path>
+                        </svg></span><span className="icon-indicator is-mobile"><span>?</span></span></a><a
+                          className="navigation-account" aria-label="Sign in or register" href="/user/sign-in"><svg
+                            viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="User icon"
+                            role="img">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M19.9999 7.5C18.4645 7.5 16.9842 7.94409 15.8847 9.00864C14.7786 10.0796 14.1666 11.673 14.1666 13.75C14.1666 17.1377 16.7167 20 19.9999 20C23.2831 20 25.8333 17.1377 25.8333 13.75C25.8333 11.673 25.2213 10.0796 24.1151 9.00864C23.0156 7.94409 21.5354 7.5 19.9999 7.5ZM15.8333 13.75C15.8333 12.0021 16.3406 10.8872 17.044 10.206C17.7542 9.51848 18.774 9.16667 19.9999 9.16667C21.2259 9.16667 22.2457 9.51848 22.9558 10.206C23.6593 10.8872 24.1666 12.0021 24.1666 13.75C24.1666 16.3454 22.2396 18.3333 19.9999 18.3333C17.7603 18.3333 15.8333 16.3454 15.8333 13.75Z"
+                            fill="#153A5B"></path>
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M18.3333 21.6667C14.1911 21.6667 10.8333 25.0245 10.8333 29.1667V29.5833C10.8333 30.2737 11.3929 30.8333 12.0833 30.8333H27.9166C28.6069 30.8333 29.1666 30.2737 29.1666 29.5833V29.1667C29.1666 25.0245 25.8087 21.6667 21.6666 21.6667H18.3333ZM12.4999 29.1667C12.4999 25.945 15.1116 23.3333 18.3333 23.3333H21.6666C24.8882 23.3333 27.4999 25.945 27.4999 29.1667H12.4999Z"
+                            fill="#153A5B"></path>
+                        </svg></a><button className="navigation-cart" aria-label="Open cart slide out"><svg viewBox="0 0 40 40"
+                          fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Cart icon" role="img">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.5 10C7.5 9.53978 7.8731 9.16669 8.33333 9.16669H10.1846C11.4523 9.16669 12.5193 10.1156 12.6675 11.3746L12.7018 11.6667H30C30.2416 11.6667 30.4713 11.7715 30.6295 11.954C30.7878 12.1365 30.8591 12.3787 30.825 12.6179L30.1413 17.4032C29.8597 19.3747 28.2223 20.8713 26.2334 20.975L13.8727 21.6193L13.9878 22.5974C14.0372 23.0171 14.3928 23.3334 14.8154 23.3334H28.3333C28.7936 23.3334 29.1667 23.7064 29.1667 24.1667C29.1667 24.6269 28.7936 25 28.3333 25H14.8154C13.5477 25 12.4807 24.0512 12.3325 22.7921L11.0122 11.5693C10.9628 11.1496 10.6072 10.8334 10.1846 10.8334H8.33333C7.8731 10.8334 7.5 10.4603 7.5 10ZM13.6776 19.9605L26.1467 19.3106C27.34 19.2484 28.3224 18.3504 28.4914 17.1675L29.0392 13.3334H12.8979L13.6776 19.9605Z"
+                            fill="#153A5B"></path>
+                          <path
+                            d="M16.6667 28.75C16.6667 29.9006 15.7339 30.8334 14.5833 30.8334C13.4327 30.8334 12.5 29.9006 12.5 28.75C12.5 27.5994 13.4327 26.6667 14.5833 26.6667C15.7339 26.6667 16.6667 27.5994 16.6667 28.75Z"
+                            fill="#153A5B"></path>
+                          <path
+                            d="M27.0833 30.8334C28.2339 30.8334 29.1667 29.9006 29.1667 28.75C29.1667 27.5994 28.2339 26.6667 27.0833 26.6667C25.9327 26.6667 25 27.5994 25 28.75C25 29.9006 25.9327 30.8334 27.0833 30.8334Z"
+                            fill="#153A5B"></path>
+                        </svg></button></div>
+                    <div className="main-navigation-wrap main-navigation-wrap-right">
+                      <nav className="main-navigation-links main-navigation-links-right">
+                        <ul>
+                          <li className=""><a className="" href="/technology">Technology</a></li>
+                          <li className=""><a className="" href="/water-quality">Water quality</a></li>
+                          <li className="icon-item"><a className="navigation-loyalty"
+                            href="/hydration-club-points-and-rewards"><span color="text.default"
+                              className="css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0" focusable="false"
+                                viewBox="0 0 48 48" color="text.default" aria-hidden="true" fill="undefined">
+                                <path fill="#153A5B"
+                                  d="M30 26a1 1 0 0 1 1 1 7 7 0 0 1-7 7 1 1 0 0 1 0-2 5 5 0 0 0 5-5 1 1 0 0 1 1-1Z">
+                                </path>
+                                <path fill="#153A5B" fill-rule="evenodd"
+                                  d="M24 7c.352 0 .677.184.858.485.724 1.207 1.637 2.486 2.637 3.854.992 1.355 2.07 2.799 3.082 4.286 2.017 2.963 3.876 6.242 4.412 9.722.537 3.49-.262 6.894-2.191 9.444C30.856 37.356 27.81 39 24 39c-3.81 0-6.857-1.644-8.798-4.21-1.93-2.549-2.727-5.953-2.19-9.443.535-3.48 2.393-6.76 4.41-9.722 1.013-1.487 2.09-2.93 3.083-4.286 1-1.368 1.913-2.647 2.637-3.854l.075-.107C23.405 7.14 23.694 7 24 7Zm0 2.86a78.172 78.172 0 0 1-1.88 2.66c-1.008 1.378-2.056 2.78-3.043 4.23-1.983 2.912-3.624 5.883-4.088 8.902-.463 3.01.238 5.856 1.809 7.932C18.356 35.644 20.81 37 24 37c3.19 0 5.643-1.357 7.202-3.416 1.57-2.076 2.272-4.922 1.81-7.932-.465-3.019-2.107-5.99-4.09-8.902-.987-1.45-2.034-2.851-3.042-4.23A78.082 78.082 0 0 1 24 9.86Z"
+                                  clip-rule="evenodd"></path>
+                              </svg></span><span className="icon-indicator is-mobile"><span>?</span></span></a></li>
+                          <li className="icon-item account-item"><a className="navigation-account" aria-label="Sign in or register"
+                            href="/user/sign-in"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                              aria-label="User icon" role="img">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.9999 7.5C18.4645 7.5 16.9842 7.94409 15.8847 9.00864C14.7786 10.0796 14.1666 11.673 14.1666 13.75C14.1666 17.1377 16.7167 20 19.9999 20C23.2831 20 25.8333 17.1377 25.8333 13.75C25.8333 11.673 25.2213 10.0796 24.1151 9.00864C23.0156 7.94409 21.5354 7.5 19.9999 7.5ZM15.8333 13.75C15.8333 12.0021 16.3406 10.8872 17.044 10.206C17.7542 9.51848 18.774 9.16667 19.9999 9.16667C21.2259 9.16667 22.2457 9.51848 22.9558 10.206C23.6593 10.8872 24.1666 12.0021 24.1666 13.75C24.1666 16.3454 22.2396 18.3333 19.9999 18.3333C17.7603 18.3333 15.8333 16.3454 15.8333 13.75Z"
+                                fill="#153A5B"></path>
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.3333 21.6667C14.1911 21.6667 10.8333 25.0245 10.8333 29.1667V29.5833C10.8333 30.2737 11.3929 30.8333 12.0833 30.8333H27.9166C28.6069 30.8333 29.1666 30.2737 29.1666 29.5833V29.1667C29.1666 25.0245 25.8087 21.6667 21.6666 21.6667H18.3333ZM12.4999 29.1667C12.4999 25.945 15.1116 23.3333 18.3333 23.3333H21.6666C24.8882 23.3333 27.4999 25.945 27.4999 29.1667H12.4999Z"
+                                fill="#153A5B"></path>
+                            </svg></a></li>
+                          <li className="icon-item"><button className="navigation-cart" aria-label="Open cart slide out"><svg
+                            viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Cart icon"
+                            role="img">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M7.5 10C7.5 9.53978 7.8731 9.16669 8.33333 9.16669H10.1846C11.4523 9.16669 12.5193 10.1156 12.6675 11.3746L12.7018 11.6667H30C30.2416 11.6667 30.4713 11.7715 30.6295 11.954C30.7878 12.1365 30.8591 12.3787 30.825 12.6179L30.1413 17.4032C29.8597 19.3747 28.2223 20.8713 26.2334 20.975L13.8727 21.6193L13.9878 22.5974C14.0372 23.0171 14.3928 23.3334 14.8154 23.3334H28.3333C28.7936 23.3334 29.1667 23.7064 29.1667 24.1667C29.1667 24.6269 28.7936 25 28.3333 25H14.8154C13.5477 25 12.4807 24.0512 12.3325 22.7921L11.0122 11.5693C10.9628 11.1496 10.6072 10.8334 10.1846 10.8334H8.33333C7.8731 10.8334 7.5 10.4603 7.5 10ZM13.6776 19.9605L26.1467 19.3106C27.34 19.2484 28.3224 18.3504 28.4914 17.1675L29.0392 13.3334H12.8979L13.6776 19.9605Z"
+                              fill="#153A5B"></path>
+                            <path
+                              d="M16.6667 28.75C16.6667 29.9006 15.7339 30.8334 14.5833 30.8334C13.4327 30.8334 12.5 29.9006 12.5 28.75C12.5 27.5994 13.4327 26.6667 14.5833 26.6667C15.7339 26.6667 16.6667 27.5994 16.6667 28.75Z"
+                              fill="#153A5B"></path>
+                            <path
+                              d="M27.0833 30.8334C28.2339 30.8334 29.1667 29.9006 29.1667 28.75C29.1667 27.5994 28.2339 26.6667 27.0833 26.6667C25.9327 26.6667 25 27.5994 25 28.75C25 29.9006 25.9327 30.8334 27.0833 30.8334Z"
+                              fill="#153A5B"></path>
+                          </svg></button></li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+                <div role="dialog" className="css-10n6evv eortzmk0"
+                  style="visibility:hidden;transform:translateX(100%) translateZ(0)">
+                  <div className="cartContainer">
+                    <div className="cartContainer_main">
+                      <div className="css-1m2kk2m egzumfh0">
+                        <div className="cartHeaderInfo">Your cart</div><button type="button" title="Close cart"
+                          className="cartHeaderCloseButton"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="2 2 20 20" title="Close icon" role="img">
+                            <path
+                              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                            </path>
+                          </svg></button>
+                      </div>
+                      <div className="css-ium302 e8w5hkd0">
+                        <div className="css-mqwi0x e15jbc1k0">
+                          <div className="cartProgress_inner">
+                            <div className="css-1vzajjh e12j6rpn0">
+                              <div className="cartProgressBar">
+                                <div tabIndex="0" role="button" data-tooltip="Get $10 off on orders $60 or more!"
+                                  className="css-1f8nz51 ez03c6k0">
+                                  <div className="cartProgressStep_label">$10 off</div>
+                                  <div className="cartProgressStep_bullet"></div>
+                                </div>
+                                <div tabIndex="0" role="button" data-tooltip="Get $20 off on orders $130 or more!"
+                                  className="css-14hva5r ez03c6k0">
+                                  <div className="cartProgressStep_label">$20 off</div>
+                                  <div className="cartProgressStep_bullet"></div>
+                                </div>
+                                <div tabIndex="0" role="button"
+                                  data-tooltip="Get $40 off on orders over $200 plus receive 1000 bonus Hydro Points for your next purchase!"
+                                  className="css-15vy6r9 ez03c6k0">
+                                  <div className="cartProgressStep_label">$40 off + 1000 pts</div>
+                                  <div className="cartProgressStep_bullet"></div>
+                                </div>
+                                <div className="cartProgressBar_progression" style="width:0%"></div>
+                              </div>
+                              <div className="cartProgressBar_text">You're <strong>$60.00</strong> away from getting <strong>$10
+                                off</strong> on your order!</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="cartContentWrap">
+                          <div className="css-1mfavrn epyifc60">
+                            <div className="cartEmptyTitle">Oh, it appears your cart is empty</div>
+                            <div className="cartEmptyCta css-b7b9ix e1ty4jc0"><button type="button" className="css-1u1hv1v eujwcxh0"
+                              data-category="Cart Preview" data-action="Check Out Now" data-test="cta-check-out-now">SHOP
+                              LARQ</button></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+        <main id="main-content" className="css-y8aj3r e1jq4geh0">
+          <section className="css-spbjl5 exfz9gz0">
+            <div className="mainHeroWrapper">
+              <div className="mainHero">
+                <div className="mainHero_content">
+                  <div className="mainHero_contentInner">
+                    <div className="mainHero_leftColumn">
+                      <div className="mainHero_details">
+                        <div className="mainHero_details_body">
+                          <h1 className="mainHero_details_body_title">Welcome to Hydration Club</h1>
+                          <div className="mainHero_details_body_text">Get rewarded for staying hydrated. Earn points on every
+                            purchase, exchange points for discounts, and enjoy other exclusive benefits. Join for free!
+                          </div>
+                        </div>
+                        <div className="mainHero_details_footer"><a aria-label="Click to Join LARQ"
+                          href="/user/registration?next=points-and-rewards" className="css-n1be4c e10c7x3h0"
+                          tabIndex="0"><span className="btn_element"><span className="btn_label">Join now</span></span></a><a
+                            aria-label="Log in to LARQ" href="/user/sign-in?next=points-and-rewards"
+                            className="css-15gjxb7 e10c7x3h0" tabIndex="0"><span className="btn_element"><span className="btn_label">Log
+                              in</span></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="mainHero_cover">
+                  <div className="mainImage"><img className="isMobile css-0 e1nv8j4y1"
+                    src="https://res.cloudinary.com/larq/image/upload/q_auto,f_auto/v1749201765/assets/spa/v3/loyalty/landing/hero_hydration_club_m.jpg"
+                    alt="LARQ Hydration Club Information" decoding="async" loading="eager" /><img
+                      className="isDesktop css-0 e1nv8j4y1"
+                      src="https://res.cloudinary.com/larq/image/upload/q_auto,f_auto/v1749201765/assets/spa/v3/loyalty/landing/hero_hydration_club_d.jpg"
+                      alt="LARQ Hydration Club Information" decoding="async" loading="eager" /></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="css-nejygk e1cm9nc20">
+            <div className="css-1oha6x9">
+              <div className="css-1llzy2o">
+                <div className="css-1ixbp0l e1qsklw40">
+                  <div className="anim-reveal" style="opacity: 0; transform: translateY(50px) translateZ(0px);">
+                    <div className="css-ivpb65">
+                      <div className="css-6ji4bg">
+                        <div className="css-13i3uow eljbxmj0">
+                          <div className="infoCard_inner">
+                            <div className="infoCard_content">
+                              <div className="infoCard_content_head">Step 1</div>
+                              <div className="infoCard_content_title">Join</div>
+                              <div className="infoCard_content_body">Create a LARQ account and automatically become a member.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="css-6ji4bg">
+                        <div className="css-13i3uow eljbxmj0">
+                          <div className="infoCard_inner">
+                            <div className="infoCard_content">
+                              <div className="infoCard_content_head">Step 2</div>
+                              <div className="infoCard_content_title">Earn</div>
+                              <div className="infoCard_content_body">Earn points for completing activities and every $1 spent.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="css-6ji4bg">
+                        <div className="css-13i3uow eljbxmj0">
+                          <div className="infoCard_inner">
+                            <div className="infoCard_content">
+                              <div className="infoCard_content_head">Step 3</div>
+                              <div className="infoCard_content_title">Redeem</div>
+                              <div className="infoCard_content_body">Use your points for discounts on future purchases at
+                                checkout.</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="css-it01sh e1cm9nc20">
+            <div className="css-1oha6x9">
+              <div className="css-1llzy2o">
+                <div className="css-1ixbp0l e1qsklw40">
+                  <div className="anim-reveal" style="opacity: 0; transform: translateY(50px) translateZ(0px);">
+                    <div className="css-1yx8s9g">
+                      <div className="css-pnmhxu e11re3dq0">
+                        <div className="css-13dkw1c">
+                          <div className="contentBlock css-vurnku">
+                            <h2 className="css-qdgmeq e1g9idd10">Hydration has its perks</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="css-lvjofi e1aedcf30">
+                      <div className="tiersTable_table" role="table">
+                        <div className="tiersTable_row" role="row">
+                          <div className="css-1vyjihm enibq6v0" role="columnheader">
+                            <div className="cell_label"></div>
+                          </div>
+                          <div className="css-1vyjihm enibq6v0" role="columnheader">
+                            <div className="cell_label">Rookie</div>
+                          </div>
+                          <div className="css-1vyjihm enibq6v0" role="columnheader">
+                            <div className="cell_label">Guru</div>
+                          </div>
+                        </div>
+                        <div className="tiersTable_row" role="row">
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_label">Points</div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_content"><strong>6 points</strong> per $1 spent</div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_content"><strong>10 points</strong> per $1 spent</div>
+                          </div>
+                        </div>
+                        <div className="tiersTable_row" role="row">
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_label">Rewards</div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_content">Every 1000 Hydro Points = <strong>$10 off</strong></div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_content">Every 1000 Hydro Points = <strong>$10 off</strong></div>
+                          </div>
+                        </div>
+                        <div className="tiersTable_row" role="row">
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_label">Exclusive sale access</div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell"><span color="text.default"
+                            className="cell_icon cancel css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0"
+                              focusable="false" viewBox="0 0 48 48" color="text.default" aria-hidden="true"
+                              fill="undefined">
+                              <path fill="#F3756D"
+                                d="M30.15 18.47a1.01 1.01 0 0 0-1.452 0l-4.388 4.388-4.389-4.389a1.01 1.01 0 0 0-1.452 0 1.01 1.01 0 0 0 0 1.453l4.388 4.388-4.388 4.388a1.01 1.01 0 0 0 0 1.452c.19.19.474.316.726.316a.96.96 0 0 0 .726-.316l4.389-4.388 4.388 4.388c.19.19.473.316.726.316a.959.959 0 0 0 .726-.316 1.01 1.01 0 0 0 0-1.452l-4.388-4.388 4.388-4.388a1.01 1.01 0 0 0 0-1.453Z">
+                              </path>
+                              <path fill="#F3756D"
+                                d="M24.31 3C12.566 3 3 12.566 3 24.31c0 11.744 9.566 21.31 21.31 21.31 11.744 0 21.31-9.566 21.31-21.31C45.62 12.566 36.054 3 24.31 3Zm0 40.568c-10.608 0-19.258-8.65-19.258-19.258 0-10.608 8.65-19.258 19.258-19.258 10.607 0 19.257 8.65 19.257 19.258 0 10.607-8.65 19.258-19.257 19.258Z">
+                              </path>
+                            </svg></span></div>
+                          <div className="css-no1ggn enibq6v0" role="cell"><span color="text.default"
+                            className="cell_icon check css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0"
+                              focusable="false" viewBox="0 0 48 48" color="text.default" aria-hidden="true"
+                              fill="undefined">
+                              <path fill-rule="evenodd"
+                                d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4 4 12.954 4 24s8.954 20 20 20Zm8.764-25.355a1 1 0 1 0-1.528-1.29l-9.424 11.16-5.097-5.214a1 1 0 1 0-1.43 1.398l5.867 6a1 1 0 0 0 1.479-.054l10.133-12Z"
+                                clip-rule="evenodd"></path>
+                            </svg></span></div>
+                        </div>
+                        <div className="tiersTable_row" role="row">
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_label">Extended warranty</div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell"><span color="text.default"
+                            className="cell_icon cancel css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0"
+                              focusable="false" viewBox="0 0 48 48" color="text.default" aria-hidden="true"
+                              fill="undefined">
+                              <path fill="#F3756D"
+                                d="M30.15 18.47a1.01 1.01 0 0 0-1.452 0l-4.388 4.388-4.389-4.389a1.01 1.01 0 0 0-1.452 0 1.01 1.01 0 0 0 0 1.453l4.388 4.388-4.388 4.388a1.01 1.01 0 0 0 0 1.452c.19.19.474.316.726.316a.96.96 0 0 0 .726-.316l4.389-4.388 4.388 4.388c.19.19.473.316.726.316a.959.959 0 0 0 .726-.316 1.01 1.01 0 0 0 0-1.452l-4.388-4.388 4.388-4.388a1.01 1.01 0 0 0 0-1.453Z">
+                              </path>
+                              <path fill="#F3756D"
+                                d="M24.31 3C12.566 3 3 12.566 3 24.31c0 11.744 9.566 21.31 21.31 21.31 11.744 0 21.31-9.566 21.31-21.31C45.62 12.566 36.054 3 24.31 3Zm0 40.568c-10.608 0-19.258-8.65-19.258-19.258 0-10.608 8.65-19.258 19.258-19.258 10.607 0 19.257 8.65 19.257 19.258 0 10.607-8.65 19.258-19.257 19.258Z">
+                              </path>
+                            </svg></span></div>
+                          <div className="css-no1ggn enibq6v0" role="cell"><span color="text.default"
+                            className="cell_icon check css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0"
+                              focusable="false" viewBox="0 0 48 48" color="text.default" aria-hidden="true"
+                              fill="undefined">
+                              <path fill-rule="evenodd"
+                                d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4 4 12.954 4 24s8.954 20 20 20Zm8.764-25.355a1 1 0 1 0-1.528-1.29l-9.424 11.16-5.097-5.214a1 1 0 1 0-1.43 1.398l5.867 6a1 1 0 0 0 1.479-.054l10.133-12Z"
+                                clip-rule="evenodd"></path>
+                            </svg></span></div>
+                        </div>
+                        <div className="tiersTable_row" role="row">
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_label">Future product surveys</div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell"><span color="text.default"
+                            className="cell_icon cancel css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0"
+                              focusable="false" viewBox="0 0 48 48" color="text.default" aria-hidden="true"
+                              fill="undefined">
+                              <path fill="#F3756D"
+                                d="M30.15 18.47a1.01 1.01 0 0 0-1.452 0l-4.388 4.388-4.389-4.389a1.01 1.01 0 0 0-1.452 0 1.01 1.01 0 0 0 0 1.453l4.388 4.388-4.388 4.388a1.01 1.01 0 0 0 0 1.452c.19.19.474.316.726.316a.96.96 0 0 0 .726-.316l4.389-4.388 4.388 4.388c.19.19.473.316.726.316a.959.959 0 0 0 .726-.316 1.01 1.01 0 0 0 0-1.452l-4.388-4.388 4.388-4.388a1.01 1.01 0 0 0 0-1.453Z">
+                              </path>
+                              <path fill="#F3756D"
+                                d="M24.31 3C12.566 3 3 12.566 3 24.31c0 11.744 9.566 21.31 21.31 21.31 11.744 0 21.31-9.566 21.31-21.31C45.62 12.566 36.054 3 24.31 3Zm0 40.568c-10.608 0-19.258-8.65-19.258-19.258 0-10.608 8.65-19.258 19.258-19.258 10.607 0 19.257 8.65 19.257 19.258 0 10.607-8.65 19.258-19.257 19.258Z">
+                              </path>
+                            </svg></span></div>
+                          <div className="css-no1ggn enibq6v0" role="cell"><span color="text.default"
+                            className="cell_icon check css-11qxqh7 e1dp28730"><svg className="css-82n8sf e11de7sb0"
+                              focusable="false" viewBox="0 0 48 48" color="text.default" aria-hidden="true"
+                              fill="undefined">
+                              <path fill-rule="evenodd"
+                                d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4 4 12.954 4 24s8.954 20 20 20Zm8.764-25.355a1 1 0 1 0-1.528-1.29l-9.424 11.16-5.097-5.214a1 1 0 1 0-1.43 1.398l5.867 6a1 1 0 0 0 1.479-.054l10.133-12Z"
+                                clip-rule="evenodd"></path>
+                            </svg></span></div>
+                        </div>
+                        <div className="tiersTable_row" role="row">
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_label">How to join</div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_content"><strong>Create a free account</strong></div>
+                          </div>
+                          <div className="css-no1ggn enibq6v0" role="cell">
+                            <div className="cell_content"><strong>Have at least one active filter subscription</strong> or
+                              <strong>spend $500 over 12 months</strong>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="css-nejygk e1cm9nc20">
+            <div className="css-1oha6x9">
+              <div className="css-1llzy2o">
+                <div className="css-1ixbp0l e1qsklw40">
+                  <div className="anim-reveal" style="opacity: 0; transform: translateY(50px) translateZ(0px);">
+                    <div className="css-1nxt6sl">
+                      <div className="css-1pthc9c">
+                        <div className="css-o0m2nw">
+                          <div className="css-pnmhxu e11re3dq0">
+                            <div className="css-13dkw1c">
+                              <div className="contentBlock css-vurnku">
+                                <h2 className="css-qdgmeq e1g9idd10">Redeem your points</h2>
+                                <div className="contentBlock_body">
+                                  <div className="contentBlock_body_text">Turn your Hydro Points into real savings. The more you
+                                    collect, the bigger your reward.</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="css-6ji4bg">
+                        <div className="css-ivpb65">
+                          <div className="css-6ji4bg">
+                            <div className="css-13i3uow eljbxmj0">
+                              <div className="infoCard_inner">
+                                <div className="infoCard_content">
+                                  <div className="infoCard_content_head">1000 Hydro Points</div>
+                                  <div className="infoCard_content_title">$10 off</div>
+                                  <div className="infoCard_content_body">First sip of sweet savings.</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="css-6ji4bg">
+                            <div className="css-13i3uow eljbxmj0">
+                              <div className="infoCard_inner">
+                                <div className="infoCard_content">
+                                  <div className="infoCard_content_head">2000 Hydro Points</div>
+                                  <div className="infoCard_content_title">$20 off</div>
+                                  <div className="infoCard_content_body">Halfway to hydration heaven.</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="css-6ji4bg">
+                            <div className="css-13i3uow eljbxmj0">
+                              <div className="infoCard_inner">
+                                <div className="infoCard_content">
+                                  <div className="infoCard_content_head">3500 Hydro Points</div>
+                                  <div className="infoCard_content_title">$35 off</div>
+                                  <div className="infoCard_content_body">The ultimate thirst quencher.</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="css-nejygk e1cm9nc20">
+            <div className="css-1vlslwz">
+              <div className="css-1llzy2o">
+                <div className="css-1ixbp0l e1qsklw40">
+                  <div className="anim-reveal" style="opacity: 0; transform: translateY(50px) translateZ(0px);">
+                    <div className="eivpvh00 css-fpcvne">
+                      <div className="css-1acdocg">
+                        <div className="faqFeatured_contentBlock css-pnmhxu e11re3dq0">
+                          <div className="css-13dkw1c">
+                            <div className="contentBlock css-vurnku">
+                              <h2 className="css-qdgmeq e1g9idd10">Just the FAQs</h2>
+                              <div className="contentBlock_body">
+                                <div className="contentBlock_body_text">Got a less-frequently asked question? Email us at <a
+                                  href="mailto:hello@livelarq.com" target="_blank">hello@livelarq.com</a> to ask it.</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="css-1acdocg">
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">What is the Hydration Club?</div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">The Hydration Club is LARQ's exclusive rewards program
+                                designed to give our community members special benefits and perks. It's our way of thanking
+                                loyal customers and making your LARQ experience even more rewarding.</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">How do I join?</div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">Simply create a free LARQ account and you'll be enrolled.
+                                Customers who already have an account are automatically enrolled in the program.</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">How do I earn points?</div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">Points are awarded automatically for every purchase, but
+                                also for free activities like following us on social media.</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">How do I redeem rewards?</div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">When making a new order, you'll be able to exchange your
+                                points for discounts at checkout.</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">How can I check my point balance?</div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">You can check your point balance, tier status,
+                                activities, and all other details at any time on your profile page.</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">How do I become a Hydration Guru?</div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">Have at least one active filter subscription or spend
+                                $500+ over a 12-month rolling period.</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">When do points expire?</div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">Points are valid for 12 months from the date they're
+                                earned.</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="css-y6lfob eknp13k0"><button type="button" className="faqExpanderHead"
+                          aria-expanded="false">
+                          <div className="faqExpanderHead_inner"><span className="faqExpanderHead_indicator"><span
+                            className="indicatorEl horizontal"></span><span className="indicatorEl vertical"></span></span>
+                            <div className="faqExpanderHead_title">Can I combine points with other discounts or promotions?
+                            </div>
+                          </div>
+                        </button>
+                          <div className="faqExpanderBody" style="opacity: 0; height: 0px; visibility: hidden;">
+                            <div className="faqExpanderBody_inner">
+                              <div className="faqExpanderBody_content">You can still earn points during our sitewide sales, but
+                                redeeming Hydration Club discounts may be disabled during some promotions.</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div className="e92aovp0 css-eklroz">
+            <div className="loyaltyBanner">
+              <div className="loyaltyBanner_content">
+                <div className="loyaltyBanner_content_body">
+                  <h2 className="loyaltyBanner_content_bodyTitle">Claim your 250 welcome points</h2>
+                  <div className="loyaltyBanner_content_bodyText">Log in or create an account to start earning rewards in the
+                    Hydration Club.</div>
+                </div>
+                <div className="loyaltyBanner_content_actions"><a aria-label="Click to Join LARQ"
+                  href="/user/registration?next=points-and-rewards" className="css-107vzrv e10c7x3h0" tabIndex="0"><span
+                    className="btn_element"><span className="btn_label">Join now</span></span></a><a aria-label="Log in to LARQ"
+                      href="/user/sign-in?next=points-and-rewards" className="css-139p19l e10c7x3h0" tabIndex="0"><span
+                        className="btn_element"><span className="btn_label">Log in</span></span></a></div>
+                <div className="loyaltyBanner_content_footer">By joining, you are agreeing to LARQ's <a
+                  href="/hydration-club-terms-and-conditions">Hydration Club Terms &amp; Conditions</a>.</div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <section className="css-8560ko e171ef4y0">
+          <div className="content-wrap">
+            <div className="signup-navigation">
+              <div className="newsletter-social">
+                <div className="css-1fpzjnr e8cz3w80"><a className="newsletter-logo" aria-label="LARQ Homepage" href="/"><svg
+                  width="85" height="20" viewBox="0 0 85 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  aria-label="Larq logo" role="img">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M74.7998 16.9523C71.0144 16.9523 67.8164 13.6743 67.8164 9.79426C67.8164 5.91404 71.0144 2.63602 74.7998 2.63602C78.5852 2.63602 81.7831 5.91404 81.7831 9.79426C81.7831 11.2661 81.3218 12.6507 80.5439 13.8033L78.4165 11.642L76.6477 13.4391L78.7948 15.6206C77.654 16.4549 76.272 16.9523 74.7998 16.9523ZM84.7023 18.0283L82.5766 15.8685C83.9015 14.2143 84.6865 12.1116 84.6865 9.79426C84.6865 4.33536 80.3436 0.0597534 74.7998 0.0597534C69.2556 0.0597534 64.9127 4.33536 64.9127 9.79426C64.9127 15.2529 69.2556 19.5288 74.7998 19.5288C77.0548 19.5288 79.1111 18.8211 80.7572 17.6143L82.9335 19.8255L84.7023 18.0283Z"
+                    fill="#153A5B"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.669189 19.1244V0.462435H3.3895V16.5479H14.4834V19.1244H0.669189Z" fill="#153A5B"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M46.914 10.3998H52.6442C55.633 10.3998 56.6933 8.41762 56.6933 6.7196C56.6933 5.0218 55.633 3.0396 52.6442 3.0396H46.914V10.3998ZM55.8915 19.1244L51.8878 12.977H46.914V19.1244H44.1937V0.462457H52.9192C56.8037 0.462457 59.4137 2.97674 59.4137 6.7196C59.4137 9.23828 57.7643 11.3851 55.2114 12.188L54.6711 12.3583L59.339 19.1244H55.8915Z"
+                    fill="#153A5B"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M23.5083 19.1244L29.222 4.86485L34.8847 19.1244H37.9185L30.7063 1.82419C30.3621 0.998699 29.5655 0.462435 28.6831 0.462435H22.8782V0.945072C22.8782 1.99892 23.719 2.8532 24.7565 2.8532H27.4969L20.4986 19.1244H23.5083Z"
+                    fill="#153A5B"></path>
+                </svg></a>
+                  <p className="newsletter-subtitle">Receive exclusive offers, hydration news, and more when you subscribe.</p>
+                  <form className="newsletter-form">
+                    <div className="newsletterBlock_input css-11ubf4d e9xz9un0"><label htmlFor="footerNewsletter_subscribe"
+                      id="footerNewsletter_subscribe-inputLabel" className="label css-pk0vug ecs51n50"><span>Enter your
+                        email</span><small>Required</small></label>
+                      <div className="inputContainer">
+                        <div className="inputContainer_inner">
+                          <div className="inputWrap"><input type="email" name="email" aria-invalid="false"
+                            id="footerNewsletter_subscribe" value="" placeholder="Enter your email" required=""
+                            aria-label="Enter your email address to subscribe to our Newsletter" /></div>
+                        </div>
+                      </div>
+                    </div><button type="submit" className="newsletter-submit-button"
+                      aria-label="Submit newsletter form">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+              <nav role="navigation" className="footer-navigation css-1vahihd e1kzia1a0">
+                <nav className="footer-mobile-navigation">
+                  <ul className="footer-mobile">
+                    <li><a href="/our-story">Our story</a></li>
+                    <li><a href="/purification/larq-bottle-purevis/reviews">Reviews</a></li>
+                    <li><a href="/contact-us">Contact</a></li>
+                    <li><a href="/press">Press</a></li>
+                    <li><a href="/support">FAQ</a></li>
+                    <li><a href="https://basq.livelarq.com" rel="noopener noreferrer" target="_blank">basq magazine</a></li>
+                    <li><a href="/retailers">Find a retailer</a></li>
+                    <li><a href="/exclusive-perks">Exclusive Perks</a></li>
+                    <li><a href="https://faire.com/direct/larq" rel="noopener noreferrer" target="_blank">Wholesale</a></li>
+                    <li><a href="https://larq.aspireiq.com/join/ambassador-program" rel="noopener noreferrer"
+                      target="_blank">Ambassador program</a></li>
+                    <li><a href="/affiliate-program">Affiliate program</a></li>
+                    <li><a href="/corporate-gifting">Corporate gifting</a></li>
+                  </ul>
+                </nav>
+                <nav className="footer-desktop-navigation">
+                  <ul className="col-1">
+                    <li><a href="/our-story">Our story</a></li>
+                    <li><a href="/support">FAQ</a></li>
+                    <li><a href="https://faire.com/direct/larq" rel="noopener noreferrer" target="_blank">Wholesale</a></li>
+                    <li><a href="/purification/larq-bottle-purevis/reviews">Reviews</a></li>
+                    <li><a href="https://basq.livelarq.com" rel="noopener noreferrer" target="_blank">basq magazine</a></li>
+                    <li><a href="https://larq.aspireiq.com/join/ambassador-program" rel="noopener noreferrer"
+                      target="_blank">Ambassador program</a></li>
+                    <li><a href="/contact-us">Contact</a></li>
+                    <li><a href="/retailers">Find a retailer</a></li>
+                    <li><a href="/affiliate-program">Affiliate program</a></li>
+                    <li><a href="/press">Press</a></li>
+                    <li><a href="/exclusive-perks">Exclusive Perks</a></li>
+                    <li><a href="/corporate-gifting">Corporate gifting</a></li>
+                  </ul>
+                </nav>
+              </nav>
+              <div className="css-1wl4mu6 e9bt58b0"><a className="mediaTextCard isLink"
+                aria-label="Get a quote for corporate gifting" href="/corporate-gifting">
+                <div className="mediaTextCard_media"><img className="mediaTextCard_media_asset css-0 e1nv8j4y1"
+                  src="https://res.cloudinary.com/larq/image/upload/q_auto,f_auto/v1671184346/assets/spa/v2/content/promo/corporate-gifting/products/bottle-filtered_spotify.png"
+                  alt="Man holding LARQ bottle with Spotify branding" decoding="async" loading="lazy" /></div>
+                <div className="mediaTextCard_body">
+                  <div className="mediaTextCard_content">
+                    <div className="mediaTextCard_content_body">
+                      <div className="mediaTextCard_content_body_main">
+                        <h3 className="mediaTextCard_content_body_main_title">Corporate gifting</h3>
+                        <div className="mediaTextCard_content_body_main_text">Originality never goes out of style</div>
+                      </div>
+                      <div className="mediaTextCard_content_body_action"><button type="button"
+                        className="mediaTextCard_content_body_actionCta css-uumepb e10c7x3h0" tabIndex="-1"
+                        aria-hidden="true"><span className="btn_element"><span className="btn_label">Get a
+                          quote</span></span></button></div>
+                    </div>
+                  </div>
+                </div>
+              </a></div>
+            </div>
+            <div className="location-legal-payment">
+              <section className="css-9nsxkx euussmz0"><button className="country-switcher-button"
+                aria-label="Open language and country switcher modal"><span className="flag"><img
+                  src="https://res.cloudinary.com/larq/image/upload/v1702649207/v3-images/flags/us.svg"
+                  alt="country flag us" /></span>United States</button></section>
+              <nav className="css-4h1e11 eeqemrm0">
+                <ul className="footer-legal-links">
+                  <li className="copyright">© LARQ, {/* */}2026</li>
+                  <li><a href="/terms-and-conditions">Terms</a></li>
+                  <li><a href="/privacy-policy">Privacy</a></li>
+                  <li><a href="/cookie-policy">Cookies</a></li>
+                  <li><a href="/accessibility">Accessibility</a></li>
+                  <li><a href="/patents">Patents</a></li>
+                  <li>
+                    <div className="iub__us-widget">
+                      <ul className="iub__us-widget__wrapper">
+                        <li><button className="iubenda-cs-preferences-link button-link" type="button" data-iub-enabled="1">Do
+                          not sell my personal information</button></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <ul className="css-n5fyd1 e12k7apl0">
+                <li className="socialLinksItem"><a href="https://www.instagram.com/livelarq/" rel="noopener noreferrer"
+                  target="_blank" title="LARQ Instagram Page" className="socialLinksItemLink"><svg width="18" height="19"
+                    viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Instagram icon"
+                    role="img">
+                    <path
+                      d="M9 5.00781C11.4609 5.00781 13.4922 7.03906 13.4922 9.5C13.4922 12 11.4609 13.9922 9 13.9922C6.5 13.9922 4.50781 12 4.50781 9.5C4.50781 7.03906 6.5 5.00781 9 5.00781ZM9 12.4297C10.6016 12.4297 11.8906 11.1406 11.8906 9.5C11.8906 7.89844 10.6016 6.60938 9 6.60938C7.35938 6.60938 6.07031 7.89844 6.07031 9.5C6.07031 11.1406 7.39844 12.4297 9 12.4297ZM14.7031 4.85156C14.7031 4.26562 14.2344 3.79688 13.6484 3.79688C13.0625 3.79688 12.5938 4.26562 12.5938 4.85156C12.5938 5.4375 13.0625 5.90625 13.6484 5.90625C14.2344 5.90625 14.7031 5.4375 14.7031 4.85156ZM17.6719 5.90625C17.75 7.35156 17.75 11.6875 17.6719 13.1328C17.5938 14.5391 17.2812 15.75 16.2656 16.8047C15.25 17.8203 14 18.1328 12.5938 18.2109C11.1484 18.2891 6.8125 18.2891 5.36719 18.2109C3.96094 18.1328 2.75 17.8203 1.69531 16.8047C0.679688 15.75 0.367188 14.5391 0.289062 13.1328C0.210938 11.6875 0.210938 7.35156 0.289062 5.90625C0.367188 4.5 0.679688 3.25 1.69531 2.23438C2.75 1.21875 3.96094 0.90625 5.36719 0.828125C6.8125 0.75 11.1484 0.75 12.5938 0.828125C14 0.90625 15.25 1.21875 16.2656 2.23438C17.2812 3.25 17.5938 4.5 17.6719 5.90625ZM15.7969 14.6562C16.2656 13.5234 16.1484 10.7891 16.1484 9.5C16.1484 8.25 16.2656 5.51562 15.7969 4.34375C15.4844 3.60156 14.8984 2.97656 14.1562 2.70312C12.9844 2.23438 10.25 2.35156 9 2.35156C7.71094 2.35156 4.97656 2.23438 3.84375 2.70312C3.0625 3.01562 2.47656 3.60156 2.16406 4.34375C1.69531 5.51562 1.8125 8.25 1.8125 9.5C1.8125 10.7891 1.69531 13.5234 2.16406 14.6562C2.47656 15.4375 3.0625 16.0234 3.84375 16.3359C4.97656 16.8047 7.71094 16.6875 9 16.6875C10.25 16.6875 12.9844 16.8047 14.1562 16.3359C14.8984 16.0234 15.5234 15.4375 15.7969 14.6562Z"
+                      fill="#153A5B"></path>
+                  </svg></a></li>
+                <li className="socialLinksItem"><a href="https://www.tiktok.com/@livelarq" rel="noopener noreferrer"
+                  target="_blank" title="LARQ TikTok Page" className="socialLinksItemLink"><svg width="19" height="22"
+                    viewBox="0 0 19 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="TikTok icon"
+                    role="img">
+                    <path
+                      d="M18.75 8.70312C16.9922 8.74219 15.3516 8.19531 13.9453 7.17969V14.1719C13.9453 16.8281 12.3047 19.1719 9.80469 20.1094C7.34375 21.0469 4.53125 20.3438 2.8125 18.3516C1.05469 16.3203 0.742188 13.4688 1.99219 11.125C3.24219 8.82031 5.82031 7.53125 8.47656 7.88281V11.3984C7.26562 11.0078 5.9375 11.4375 5.19531 12.4531C4.49219 13.5078 4.49219 14.875 5.23438 15.8906C5.97656 16.9062 7.30469 17.3359 8.47656 16.9453C9.6875 16.5547 10.5078 15.4219 10.5078 14.1719V0.5H13.9453C13.9453 0.8125 13.9453 1.08594 14.0234 1.39844C14.2578 2.6875 15 3.82031 16.1328 4.52344C16.875 5.03125 17.8125 5.30469 18.75 5.30469V8.70312Z"
+                      fill="#153A5B"></path>
+                  </svg></a></li>
+                <li className="socialLinksItem"><a href="https://www.youtube.com/c/LARQwater" rel="noopener noreferrer"
+                  target="_blank" title="LARQ Youtube Channel" className="socialLinksItemLink"><svg width="22" height="15"
+                    viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="YouTube icon"
+                    role="img">
+                    <path
+                      d="M21.1953 2.38281C21.6641 4.02344 21.6641 7.53906 21.6641 7.53906C21.6641 7.53906 21.6641 11.0156 21.1953 12.6953C20.9609 13.6328 20.2188 14.3359 19.3203 14.5703C17.6406 15 11 15 11 15C11 15 4.32031 15 2.64062 14.5703C1.74219 14.3359 1 13.6328 0.765625 12.6953C0.296875 11.0156 0.296875 7.53906 0.296875 7.53906C0.296875 7.53906 0.296875 4.02344 0.765625 2.38281C1 1.44531 1.74219 0.703125 2.64062 0.46875C4.32031 0 11 0 11 0C11 0 17.6406 0 19.3203 0.46875C20.2188 0.703125 20.9609 1.44531 21.1953 2.38281ZM8.8125 10.7031L14.3594 7.53906L8.8125 4.375V10.7031Z"
+                      fill="#153A5B"></path>
+                  </svg></a></li>
+                <li className="socialLinksItem"><a href="https://www.facebook.com/livelarq/" rel="noopener noreferrer"
+                  target="_blank" title="LARQ Facebook Page" className="socialLinksItemLink"><svg width="12" height="21"
+                    viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Facebook icon"
+                    role="img">
+                    <path
+                      d="M10.6484 11.75H7.71875V20.5H3.8125V11.75H0.609375V8.15625H3.8125V5.38281C3.8125 2.25781 5.6875 0.5 8.53906 0.5C9.90625 0.5 11.3516 0.773438 11.3516 0.773438V3.85938H9.75C8.1875 3.85938 7.71875 4.79688 7.71875 5.8125V8.15625H11.1953L10.6484 11.75Z"
+                      fill="#153A5B"></path>
+                  </svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <script type="text/javascript" crossorigin="anonymous"
+        src="https://us-assets.i.posthog.com/static/surveys.js?v=1.314.0"></script>
+      <script type="text/javascript" crossorigin="anonymous"
+        src="https://us-assets.i.posthog.com/array/phc_hYLrRs891rYhkjVlgKVekfo2qBz6YYc39Kf4xDEUSDF/config.js"></script>
+      <script type="text/javascript" crossorigin="anonymous"
+        src="https://us-assets.i.posthog.com/static/posthog-recorder.js?v=1.314.0"></script>
+      <script id="ze-snippet" text="" charset="" type="text/javascript"
+        src="https://static.zdassets.com/ekr/snippet.js?key=markup-adapter"></script>
 
-      <section className="hydration-section">
-        <h2>Why Hydration Matters</h2>
-        <p>
-          Water is essential for virtually every function in your body. From regulating 
-          temperature to transporting nutrients, proper hydration is key to optimal health 
-          and performance.
-        </p>
-      </section>
-
-      <section className="hydration-section">
-        <h2>How Much Water Do You Need?</h2>
-        <p>
-          While the "8 glasses a day" rule is a good starting point, your actual needs 
-          depend on many factors including your activity level, climate, and body size. 
-          A good rule of thumb is to drink half your body weight in ounces daily.
-        </p>
-        <div className="hydration-calculator">
-          <h3>Quick Guide</h3>
-          <ul>
-            <li>Sedentary: 8-10 cups (64-80 oz) per day</li>
-            <li>Moderately active: 10-12 cups (80-96 oz) per day</li>
-            <li>Very active: 12+ cups (96+ oz) per day</li>
-          </ul>
+      <iframe data-product="web_widget" title="No content" role="presentation" tabIndex="-1" allow="microphone *"
+        aria-hidden="true" src="about:blank"
+        style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe>
+      <div style="position: relative;" id="zp-11-2-5-licdn-root-apollo_everywhere">
+        <div className="zp apolloio-css-vars-reset x_EFRzP x_I3MOf" dir="ltr" data-has-tooltip-listener="">
+          <div className="x_BJJxg" data-disable-focus-trap="true"></div>
+          <div className="x_KfhZL" aria-live="polite" aria-atomic="true" data-disable-focus-trap="true"
+            data-testid="toast-container-top"></div><span data-name="tooltip-listener" aria-hidden="true"
+              style="display: none;"></span>
         </div>
-      </section>
-
-      <section className="hydration-section">
-        <h2>Signs of Dehydration</h2>
-        <div className="signs-grid">
-          <div className="sign">
-            <h3>Thirst</h3>
-            <p>If you're feeling thirsty, you're already mildly dehydrated.</p>
-          </div>
-          <div className="sign">
-            <h3>Dark Urine</h3>
-            <p>Well-hydrated urine should be light yellow or clear.</p>
-          </div>
-          <div className="sign">
-            <h3>Fatigue</h3>
-            <p>Dehydration can cause tiredness and decreased energy.</p>
-          </div>
-          <div className="sign">
-            <h3>Headaches</h3>
-            <p>Many headaches are caused by mild dehydration.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className="hydration-section">
-        <h2>Tips for Better Hydration</h2>
-        <ul className="tips-list">
-          <li>Start your day with a glass of water</li>
-          <li>Carry a reusable water bottle with you</li>
-          <li>Set reminders to drink water throughout the day</li>
-          <li>Eat water-rich foods like fruits and vegetables</li>
-          <li>Drink water before, during, and after exercise</li>
-        </ul>
-      </section>
-
-      <section className="cta-section">
-        <h2>Stay hydrated with LARQ</h2>
-        <Link to="/products" className="cta-button">Shop Now</Link>
-      </section>
+      </div>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/60-fbaabfdfae0d1722.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/5654-76345a44700b119b.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/767-1c99860931f74e27.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/6023-289f95e9536bf84c.js"></script>
+      <script
+        src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/pages/water-quality/contaminant/pfas-152036e69cf1c700.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/9563-eb3bf8fb763fd844.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/8743-a94f5325c254c468.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/pages/gift-guide-2effbcc2aef5fc71.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/52d4c156-14f59aec41831e21.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/2426-eb59c2a66d313644.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/7866-3a7f05005e7ffaea.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/6165-1b62b3644430fe10.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/4228-8a8bbbe40cf2675a.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/5903-72cc0a99125f7629.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/9445-7630598e1bd82977.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/pages/technology-537f139792d81bd0.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/2724-73ee308abd91bdb5.js"></script>
+      <script src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/8840-6a2785820ab734ec.js"></script>
+      <script
+        src="https://d38wbksp4rmv41.cloudfront.net/_next/static/chunks/pages/hydration-club-points-and-rewards-aae545e33f018879.js"></script>
+      <script id="" text="" charset="" type="text/javascript"
+        src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Mf6Y4L"></script>
     </div>
   );
 }
