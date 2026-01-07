@@ -1,8 +1,500 @@
-@import url('//use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --larq-blue: #153A5B;
+  --larq-light: #F5F7FA;
+  --larq-white: #FFFFFF;
+  --larq-accent: #00C2CB;
+  --larq-coral: #F3756D;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'LARQ Geologica', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--larq-blue);
+  background-color: var(--larq-white);
+  line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--larq-white);
+}
+
+.promo-bar {
+  background: var(--larq-blue);
+  color: var(--larq-white);
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.learn-more-btn {
+  background: transparent;
+  border: 1px solid var(--larq-white);
+  color: var(--larq-white);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-left a, .nav-right a {
+  color: var(--larq-blue);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+  opacity: 0.7;
+}
+
+.logo svg {
+  height: 20px;
+  width: auto;
+}
+
+.cart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+/* Home Page Styles */
+.home-page {
+  overflow-x: hidden;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+  background: var(--larq-light);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-primary {
+  background: var(--larq-blue);
+  color: var(--larq-white);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--larq-blue);
+  padding: 1rem 2rem;
+  border: 2px solid var(--larq-blue);
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-secondary:hover {
+  background: var(--larq-blue);
+  color: var(--larq-white);
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+}
+
+/* Features Section */
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 5rem 4rem;
+  background: var(--larq-white);
+}
+
+.feature-card {
+  text-align: center;
+  padding: 2rem;
+}
+
+.feature-icon {
+  margin-bottom: 1.5rem;
+}
+
+.feature-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Products Section */
+.products-section {
+  padding: 5rem 4rem;
+  background: var(--larq-light);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.product-card {
+  background: var(--larq-white);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--larq-blue);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.product-image {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-price {
+  color: #666;
+  font-weight: 500;
+}
+
+.products-cta {
+  text-align: center;
+}
+
+/* Tech Section */
+.tech-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding: 5rem 4rem;
+  align-items: center;
+}
+
+.tech-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-content p {
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.tech-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Sustainability Section */
+.sustainability-section {
+  text-align: center;
+  padding: 5rem 4rem;
+  background: var(--larq-blue);
+  color: var(--larq-white);
+}
+
+.sustainability-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.sustainability-section > p {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  opacity: 0.9;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.stat-label {
+  opacity: 0.8;
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 5rem 4rem;
+  text-align: center;
+}
+
+.reviews-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.review-card {
+  background: var(--larq-light);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.review-stars {
+  color: #FFD700;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.review-card p {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.review-author {
+  font-weight: 500;
+  color: var(--larq-blue);
+}
+
+/* Footer Styles */
+.footer {
+  background: var(--larq-blue);
+  color: var(--larq-white);
+  padding: 4rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-section h4 {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-section a {
+  color: var(--larq-white);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footer-section a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 2rem;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 0.875rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  
+  .hero-content {
+    padding: 3rem 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .features-section,
+  .products-grid,
+  .reviews-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tech-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-left, .nav-right {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+  }
+  
+  .main-nav {
+    justify-content: space-between;
+  }
+  
+  .hero-content {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .features-section,
+  .products-section,
+  .tech-section,
+  .sustainability-section,
+  .reviews-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .footer {
+    padding: 2rem 1.5rem;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+}
 
 @font-face {
   font-family: "LARQ Geologica";
