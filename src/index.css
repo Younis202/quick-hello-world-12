@@ -1,43 +1,242 @@
+/* LARQ Fonts */
 @font-face {
-  font-family: "LARQ Geologica";
+  font-family: 'LARQ Geologica';
   font-display: block;
   font-weight: normal;
-  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Regular.woff2") format("woff2");
+  src: url('https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "LARQ Geologica";
+  font-family: 'LARQ Geologica';
   font-display: block;
   font-weight: 500;
-  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Medium.woff2") format("woff2");
+  src: url('https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Medium.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "LARQ Geologica";
+  font-family: 'LARQ Geologica';
   font-display: block;
   font-weight: 700;
-  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Bold.woff2") format("woff2");
+  src: url('https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Bold.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "LARQ Geologica";
+  font-family: 'LARQ Geologica';
   font-display: block;
   font-weight: 900;
-  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Black.woff2") format("woff2");
+  src: url('https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Black.woff2') format('woff2');
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'LARQ Geologica Bold';
+  font-display: block;
+  font-weight: bold;
+  src: url('https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Bold.woff2') format('woff2');
+}
+
+/* Fresnel responsive classes */
+.fresnel-container {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: "LARQ Geologica", sans-serif;
+@media not all and (min-width:0px) and (max-width:723px) {
+  .fresnel-at-xs { display: none !important; }
+}
+
+@media not all and (min-width:724px) and (max-width:959px) {
+  .fresnel-at-sm { display: none !important; }
+}
+
+@media not all and (min-width:960px) and (max-width:1279px) {
+  .fresnel-at-md { display: none !important; }
+}
+
+@media not all and (min-width:1280px) and (max-width:1919px) {
+  .fresnel-at-lg { display: none !important; }
+}
+
+@media not all and (min-width:1920px) {
+  .fresnel-at-xl { display: none !important; }
+}
+
+@media not all and (max-width:723px) {
+  .fresnel-lessThan-sm { display: none !important; }
+}
+
+@media not all and (max-width:959px) {
+  .fresnel-lessThan-md { display: none !important; }
+}
+
+@media not all and (max-width:1279px) {
+  .fresnel-lessThan-lg { display: none !important; }
+}
+
+@media not all and (max-width:1919px) {
+  .fresnel-lessThan-xl { display: none !important; }
+}
+
+@media not all and (min-width:724px) {
+  .fresnel-greaterThan-xs { display: none !important; }
+}
+
+@media not all and (min-width:960px) {
+  .fresnel-greaterThan-sm { display: none !important; }
+}
+
+@media not all and (min-width:1280px) {
+  .fresnel-greaterThan-md { display: none !important; }
+}
+
+@media not all and (min-width:1920px) {
+  .fresnel-greaterThan-lg { display: none !important; }
+}
+
+@media not all and (min-width:0px) {
+  .fresnel-greaterThanOrEqual-xs { display: none !important; }
+}
+
+@media not all and (min-width:724px) {
+  .fresnel-greaterThanOrEqual-sm { display: none !important; }
+}
+
+@media not all and (min-width:960px) {
+  .fresnel-greaterThanOrEqual-md { display: none !important; }
+}
+
+@media not all and (min-width:1280px) {
+  .fresnel-greaterThanOrEqual-lg { display: none !important; }
+}
+
+@media not all and (min-width:1920px) {
+  .fresnel-greaterThanOrEqual-xl { display: none !important; }
+}
+
+/* Global Styles */
+html {
+  font-size: 0.9375em;
+  box-sizing: border-box;
+  min-height: 100%;
+  overflow-y: scroll;
+  font-family: 'LARQ Geologica', sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #5a5e60;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: 'LARQ Geologica', sans-serif;
+}
+
+@media (min-width:1280px) {
+  body { background-color: #fff; }
+}
+
+body.bodyBgBlue { background: #f5f9fc; }
+body.bg_white { background: #FFFFFF; }
+body.bg_lightLavender { background: #F5F6FA; }
+
+nav ul { padding-inline-start: 0; }
+
+img {
+  max-width: 100%;
+  font-style: italic;
+  border-style: none;
+  vertical-align: middle;
+}
+
+img[width], img[height] { max-width: none; }
+
+a {
+  color: #153a5b;
+  background: transparent;
+  text-decoration: none;
+  text-decoration-skip: objects;
+}
+
+a:hover { color: #757575; }
+a:active, a:hover { color: #757575; outline-width: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #153a5b;
+  margin: 0;
+  padding: 0;
+  margin-top: 2.23333rem;
+  font-weight: 700;
+  margin-bottom: .73333rem;
+  letter-spacing: .25px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width:724px) {
+  h1 { font-size: 40px; }
+}
+
+h2 { font-size: 20px; }
+
+@media (min-width:960px) {
+  h2.large { font-size: 38px; }
+}
+
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 15px; }
+h6 { font-size: 13px; }
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  margin-bottom: 2.25rem;
+}
+
+@media (min-width:960px) {
+  p.large { font-size: 20px; }
+}
+
+ul, ol {
+  margin: 0 0 0 1.15rem;
+  padding: 0;
+  list-style-position: outside;
+}
+
+button {
+  border: none;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+button:focus { outline: none; }
+
+article, aside, footer, header, nav, section, figcaption, figure, main {
+  display: block;
+}
+
+/* Page wrapper */
 .page-wrapper {
+  min-height: 100vh;
+}
+
+#root {
   min-height: 100vh;
 }
