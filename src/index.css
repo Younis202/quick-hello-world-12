@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "LARQ Geologica";
+  font-display: block;
+  font-weight: normal;
+  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LARQ Geologica";
+  font-display: block;
+  font-weight: 500;
+  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LARQ Geologica";
+  font-display: block;
+  font-weight: 700;
+  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LARQ Geologica";
+  font-display: block;
+  font-weight: 900;
+  src: url("https://res.cloudinary.com/larq/raw/upload/v1758804644/fonts/LARQ-Geologica-Black.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "LARQ Geologica", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+}
