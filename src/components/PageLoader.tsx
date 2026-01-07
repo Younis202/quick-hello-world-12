@@ -4,25 +4,31 @@ interface PageLoaderProps {
   pageName: string;
 }
 
-export function usePageContent(pageName: string) {
+export default function PageLoader({ pageName }: PageLoaderProps) {
   const [htmlContent, setHtmlContent] = useState('');
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    setIsLoading(true);
+    
     fetch(`/pages/${pageName}.html`)
-      .then((res) => res.text())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`Failed to load ${pageName}`);
+        }
+        return res.text();
+      })
       .then((html) => {
-        // Extract styles from head and inject into document head
+        // Extract styles from head
         const styleMatches = html.match(/<style[^>]*>[\s\S]*?<\/style>/gi) || [];
         
-        // Remove any previously injected styles for this page
-        const existingStyles = document.querySelectorAll(`style[data-page="${pageName}"]`);
-        existingStyles.forEach(el => el.remove());
+        // Remove any previously injected styles
+        document.querySelectorAll(`style[data-page="${pageName}"]`).forEach(el => el.remove());
         
         // Inject styles into document head
         styleMatches.forEach((styleTag) => {
           const styleEl = document.createElement('style');
           styleEl.setAttribute('data-page', pageName);
-          // Extract content from style tag
           const contentMatch = styleTag.match(/<style[^>]*>([\s\S]*?)<\/style>/i);
           if (contentMatch) {
             styleEl.textContent = contentMatch[1];
@@ -30,51 +36,46 @@ export function usePageContent(pageName: string) {
           }
         });
         
-        // Extract body content - find the __next div or body
+        // Extract body content
         let bodyContent = '';
         
-        // Try to get the __next div content
-        const startIndex = html.indexOf('<div id="__next"');
-        if (startIndex !== -1) {
-          const endTag = '</body>';
-          const endIndex = html.indexOf(endTag);
-          if (endIndex !== -1) {
-            // Get content from __next to before </body>
-            let content = html.substring(startIndex, endIndex);
-            // Remove trailing scripts
-            const scriptStart = content.lastIndexOf('<script');
-            if (scriptStart !== -1) {
-              content = content.substring(0, scriptStart);
-            }
-            bodyContent = content;
+        // Find the __next div
+        const nextStart = html.indexOf('<div id="__next"');
+        if (nextStart !== -1) {
+          const bodyEnd = html.indexOf('</body>');
+          if (bodyEnd !== -1) {
+            bodyContent = html.substring(nextStart, bodyEnd);
+            // Remove script tags
+            bodyContent = bodyContent.replace(/<script[\s\S]*?<\/script>/gi, '');
           }
         }
         
-        // If we couldn't extract __next, try to get body content
+        // Fallback to body content
         if (!bodyContent) {
           const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
           if (bodyMatch) {
             bodyContent = bodyMatch[1];
-            // Remove scripts
             bodyContent = bodyContent.replace(/<script[\s\S]*?<\/script>/gi, '');
           }
         }
         
         setHtmlContent(bodyContent);
+        setIsLoading(false);
+      })
+      .catch((err) => {
+        console.error('Error loading page:', err);
+        setHtmlContent('<div style="padding: 20px; text-align: center;">Error loading page</div>');
+        setIsLoading(false);
       });
       
-    // Cleanup function to remove styles when component unmounts
     return () => {
-      const existingStyles = document.querySelectorAll(`style[data-page="${pageName}"]`);
-      existingStyles.forEach(el => el.remove());
+      document.querySelectorAll(`style[data-page="${pageName}"]`).forEach(el => el.remove());
     };
   }, [pageName]);
 
-  return { htmlContent };
-}
-
-export default function PageLoader({ pageName }: PageLoaderProps) {
-  const { htmlContent } = usePageContent(pageName);
+  if (isLoading) {
+    return <div style={{ padding: '20px', textAlign: 'center' }}>Loading...</div>;
+  }
 
   return (
     <div 
